@@ -133,4 +133,4 @@ combos:
 - p: [0, 1]
   k: ⌦
 - p: [35, 34]
-  k: {t: CAPSLOCK, h: toggle}
+  k: CAPSLOCK

@@ -21,7 +21,7 @@
         };
 
         Shiftslash.Caps {
-            bindings = <&kt CAPSLOCK>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <35 34>;
         };
     };
