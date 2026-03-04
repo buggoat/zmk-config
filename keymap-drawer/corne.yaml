@@ -39,7 +39,7 @@ layers:
   - LEFT SHIFT
   - {t: Home, h: LOW}
   - LEFT SHIFT
-  - ␣
+  - {t: ␣, h: LEFT GUI}
   - ⏎
   - RIGHT SHIFT
   - {t: End, h: '$$mdi:apple-keyboard-option$$'}
@@ -132,5 +132,5 @@ layers:
 combos:
 - p: [0, 1]
   k: ⌦
-- p: [35, 34]
+- p: [35, 41]
   k: CAPSLOCK

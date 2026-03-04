@@ -395,6 +395,7 @@ rect.held, rect.combo.held {
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">␣</text>
+<text x="0" y="38" class="key hold"><tspan style="font-size: 75%">LEFT GUI</tspan></text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -416,8 +417,10 @@ rect.held, rect.combo.held {
 <text x="56" y="49" class="combo tap">⌦</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
-<text x="784" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<path d="M714,183 l80,-18" class="combo"/>
+<path d="M714,183 l-80,18" class="combo"/>
+<rect rx="6" ry="6" x="700" y="170" width="28" height="26" class="combo"/>
+<text x="714" y="183" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -609,8 +612,10 @@ rect.held, rect.combo.held {
 <text x="56" y="49" class="combo tap">⌦</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
-<text x="784" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<path d="M714,183 l80,-18" class="combo"/>
+<path d="M714,183 l-80,18" class="combo"/>
+<rect rx="6" ry="6" x="700" y="170" width="28" height="26" class="combo"/>
+<text x="714" y="183" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -790,8 +795,10 @@ rect.held, rect.combo.held {
 <text x="56" y="49" class="combo tap">⌦</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
-<text x="784" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<path d="M714,183 l80,-18" class="combo"/>
+<path d="M714,183 l-80,18" class="combo"/>
+<rect rx="6" ry="6" x="700" y="170" width="28" height="26" class="combo"/>
+<text x="714" y="183" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
