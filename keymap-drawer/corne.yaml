@@ -56,7 +56,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:backspace-outline$$
-  - BT CLR
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - →
@@ -132,3 +132,5 @@ layers:
 combos:
 - p: [0, 1]
   k: ⌦
+- p: [35, 34]
+  k: {t: CAPSLOCK, h: toggle}
