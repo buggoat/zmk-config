@@ -33,6 +33,6 @@ manifest:
       revision: main
     - name: nice-view-gem
       remote: buggoat
-      revision: v0.3.0S
+      revision: v0.3.0
   self:
     path: config
