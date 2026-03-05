@@ -37,6 +37,20 @@
             flavor = "tap-preferred";
             require-prior-idle-ms = <125>;
         };
+
+        AltEnd: AltEnd {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ALTEND";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT>, <&kp END>;
+        };
+
+        Lay1Home: Lay1Home {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LAY1HOME";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&kp HOME>, <&tog 1>;
+        };
     };
 
     keymap {
@@ -52,10 +66,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E       &kp R             &kp T                       &kp Y    &kp U            &kp I         &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D       &kp F             &kp G                       &kp H    &kp J            &kp K         &kp L    &kp SEMI  &kp SQT
-&none       &kp Z  &kp X  &kp C       &kp V             &kp B                       &kp N    &kp M            &kp COMMA     &kp DOT  &kp FSLH  &kp LEFT_SHIFT
-                          &lt 1 HOME  &sk LEFT_CONTROL  &SpaceWin LEFT_GUI SPACE    &kp RET  &kp RIGHT_SHIFT  &mt RALT END
+&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R             &kp T                       &kp Y    &kp U            &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB     &kp A  &kp S  &kp D      &kp F             &kp G                       &kp H    &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
+&none       &kp Z  &kp X  &kp C      &kp V             &kp B                       &kp N    &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
+                          &Lay1Home  &sk LEFT_CONTROL  &SpaceWin LEFT_GUI SPACE    &kp RET  &kp RIGHT_SHIFT  &AltEnd
             >;
         };
 
@@ -72,7 +86,7 @@
 &kp ESCAPE  &kp TILDE         &kp UP_ARROW    &kp LS(LG(S))  &kp EQUAL             &kp ASTERISK             &kp N7        &kp NUMBER_8  &kp N9        &trans  &trans     &kp BSPC
 &trans      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT      &kp PLUS              &kp MINUS                &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp COLON  &trans
 &kp LSHFT   &kp LEFT_CONTROL  &kp LEFT_ALT    &kp DELETE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans     &trans
-                                              &kp LGUI       &kp LEFT_SHIFT        &kp SPACE                &kp RET       &kp N0        &kp PERIOD
+                                              &tog 1         &kp LEFT_SHIFT        &kp SPACE                &kp RET       &kp N0        &kp PERIOD
             >;
         };
 

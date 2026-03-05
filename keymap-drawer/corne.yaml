@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - LEFT SHIFT
-  - {t: Home, h: LOW}
-  - LEFT CONTROL
+  - '&Lay1Home'
+  - {t: LEFT CONTROL, h: sticky}
   - {t: ␣, h: LEFT GUI}
   - ⏎
   - RIGHT SHIFT
-  - {t: End, h: '$$mdi:apple-keyboard-option$$'}
+  - '&AltEnd'
   LOW:
   - ESCAPE
   - '~'
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:apple-keyboard-command$$', type: held}
+  - {t: LOW, h: toggle}
   - LEFT SHIFT
   - ␣
   - ⏎
