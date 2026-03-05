@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS:
+  MAIN:
   - ESCAPE
   - Q
   - W
@@ -43,7 +43,7 @@ layers:
   - ⏎
   - RIGHT SHIFT
   - '&AltEnd'
-  LOW:
+  PRI:
   - ESCAPE
   - '~'
   - UP ARROW
@@ -79,8 +79,8 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LOW, h: toggle}
+  - '&studio_unlock'
+  - {t: PRI, h: toggle}
   - LEFT SHIFT
   - ␣
   - ⏎
