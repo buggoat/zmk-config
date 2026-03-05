@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - LEFT SHIFT
-  - '&Lay1Home'
+  - '&PriHome'
   - {t: LEFT CONTROL, h: sticky}
   - {t: ␣, h: LEFT GUI}
   - ⏎
@@ -79,9 +79,9 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - RIGHT SHIFT
   - {t: PRI, h: toggle}
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - ␣
   - ⏎
   - '0'
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
