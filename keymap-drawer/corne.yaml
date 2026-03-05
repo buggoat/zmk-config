@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - LEFT CONTROL
+  - ''
   - Z
   - X
   - C
@@ -38,7 +38,7 @@ layers:
   - /
   - LEFT SHIFT
   - {t: Home, h: LOW}
-  - LEFT SHIFT
+  - LEFT CONTROL
   - {t: ␣, h: LEFT GUI}
   - ⏎
   - RIGHT SHIFT
