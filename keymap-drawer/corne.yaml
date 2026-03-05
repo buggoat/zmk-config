@@ -47,7 +47,7 @@ layers:
   - ESCAPE
   - '~'
   - UP ARROW
-  - Sft+S
+  - Sft+Gui+S
   - '='
   - '*'
   - '7'
