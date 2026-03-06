@@ -38,7 +38,7 @@ layers:
   - /
   - LEFT SHIFT
   - '&PriHome'
-  - {t: LEFT CONTROL, h: sticky}
+  - LEFT CONTROL
   - {t: ␣, h: LEFT GUI}
   - ⏎
   - RIGHT SHIFT
