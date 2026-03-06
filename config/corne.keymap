@@ -50,6 +50,8 @@
             label = "PRIHOME";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp HOME>, <&tog 1>;
+
+            tapping-term-ms = <333>;
         };
     };
 
