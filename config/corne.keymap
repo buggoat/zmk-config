@@ -43,8 +43,6 @@
             label = "ALTEND";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_ALT>, <&kp END>;
-
-            tapping-term-ms = <150>;
         };
 
         PriHome: PriHome {
@@ -52,8 +50,6 @@
             label = "PRIHOME";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp HOME>, <&tog 1>;
-
-            tapping-term-ms = <150>;
         };
     };
 
