@@ -134,3 +134,5 @@ combos:
   k: ⌦
 - p: [35, 41]
   k: CAPSLOCK
+- p: [36, 37, 38]
+  k: ENTER

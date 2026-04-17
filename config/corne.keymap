@@ -24,6 +24,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <35 41>;
         };
+
+        LThumbTripleEnter {
+            bindings = <&kp ENTER>;
+            key-positions = <36 37 38>;
+        };
     };
 
     behaviors {
