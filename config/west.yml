@@ -8,8 +8,9 @@ manifest:
     # nice_oled - nice_epaper - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
+    # hammerbeam slideshow, less battery drain than the nice!view Gem
+    - name: gpeye #new entry
+      url-base: https://github.com/GPeye #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -31,8 +32,9 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
-    - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: v0.3.0 #new entry
+    # Dongle oled Display
+    - name: hammerbeam-slideshow #new entry
+      remote: gpeye #new entry
+      revision: main #new entry
   self:
     path: config
