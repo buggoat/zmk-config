@@ -12,8 +12,8 @@ manifest:
     - name: m165437 #new entry
       url-base: https://github.com/M165437 #new entry
     # hammerbeam slideshow, less battery drain than the nice!view Gem
-    - name: gpeye #new entry
-      url-base: https://github.com/GPeye #new entry
+    - name: buggoat #new entry
+      url-base: https://github.com/buggoat #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -41,7 +41,7 @@ manifest:
       revision: v0.3.0
     # Dongle oled Display
     - name: hammerbeam-slideshow #new entry
-      remote: gpeye #new entry
+      remote: buggoat #new entry
       revision: main #new entry
   self:
     path: config
